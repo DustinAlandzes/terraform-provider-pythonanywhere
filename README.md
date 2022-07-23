@@ -16,19 +16,20 @@ provider "pythonanywhere" {
 
 ```
 4. Set your API token and username as environment variables
-  a. Set these environment variables or 
-  ```
-    export PYTHONANYWHERE_API_TOKEN="YOUR_API_TOKEN"
-    export PYTHONANYWHERE_USERNAME="YOUR_USERNAME"
-  ```
-  b. or set them directly in terraform configuration:
-  ```
-  # For example, restrict provider version in 0.1.x
-  provider "pythonanywhere" {
-    version   = "~> 0.1"
-    username  = "YOUR_API_TOKEN"
-    api_token = "YOUR_USERNAME"
-  }
+    a. Set these environment variables or 
+    ```
+      export PYTHONANYWHERE_API_TOKEN="YOUR_API_TOKEN"
+      export PYTHONANYWHERE_USERNAME="YOUR_USERNAME"
+    ```
+    
+    b. or set them directly in terraform configuration:
+    ```
+    # For example, restrict provider version in 0.1.x
+    provider "pythonanywhere" {
+      version   = "~> 0.1"
+      username  = "YOUR_API_TOKEN"
+      api_token = "YOUR_USERNAME"
+    }
   ```
 
 ## Building
