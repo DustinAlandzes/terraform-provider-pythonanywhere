@@ -57,7 +57,7 @@ provider "pythonanywhere" {
 
 ```
 
-See the [PythonAnywhere Provider documentation](https://help.pythonanywhere.com/pages/) to get started using PythonAnywhere.
+See the [PythonAnywhere API documentation](https://help.pythonanywhere.com/pages/).
 
 Developing the Provider
 -----------------------
