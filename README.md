@@ -16,6 +16,7 @@ provider "pythonanywhere" {
 
 ```
 4. Set your API token and username as environment variables
+
     a. Set these environment variables or 
     ```
       export PYTHONANYWHERE_API_TOKEN="YOUR_API_TOKEN"
