@@ -2,7 +2,7 @@
 
 See the [PythonAnywhere API documentation](https://help.pythonanywhere.com/pages/).
 
-## How to use
+## Using
 1. Install [Terraform](https://www.terraform.io/downloads.html) 1.2.5
 2. Install [Go](https://golang.org/doc/install) 1.18.4 (to build the provider plugin)
 3. Add the provider block to your terraform config
@@ -31,7 +31,7 @@ provider "pythonanywhere" {
   }
   ```
 
-## Building The Provider
+## Building
 
 1. `git clone ...`
 2. `cd ...`
