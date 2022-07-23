@@ -1,16 +1,6 @@
 PythonAnywhere Terraform Provider
 =================================
 
-- Website: https://www.terraform.io
-- [![Gitter chat](https://badges.gitter.im/hashicorp-terraform/Lobby.png)](https://gitter.im/hashicorp-terraform/Lobby)
-- Mailing list: [Google Groups](http://groups.google.com/group/terraform-tool)
-
-<img src="https://cdn.rawgit.com/hashicorp/terraform-website/master/content/source/assets/images/logo-hashicorp.svg" width="600px">
-
-Maintainers
------------
-
-This provider plugin is maintained by 5h4d0wb0y.
 
 Requirements
 ------------
@@ -21,12 +11,12 @@ Requirements
 Using the provider
 ------------------
 
-Set the environments:
+Set the environment variables:
 
 	export PYTHONANYWHERE_API_TOKEN="YOUR_API_TOKEN"
 	export PYTHONANYWHERE_USERNAME="YOUR_USERNAME"
 
-or set then directly in terraform configuration:
+or set them directly in terraform configuration:
 
 ```
 # For example, restrict provider version in 0.1.x
