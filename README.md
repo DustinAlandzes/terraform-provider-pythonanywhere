@@ -31,7 +31,7 @@ provider "pythonanywhere" {
       username  = "YOUR_API_TOKEN"
       api_token = "YOUR_USERNAME"
     }
-  ```
+    ```
 
 ## Building
 
